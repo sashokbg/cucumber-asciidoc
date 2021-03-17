@@ -1,0 +1,5 @@
+= Living documentation
+
+== Testing it out
+
+This is how living documentation is done
