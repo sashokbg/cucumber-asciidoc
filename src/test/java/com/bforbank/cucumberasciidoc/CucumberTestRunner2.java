@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:/features/feat1",
-        plugin = {"json:target/test-classes/json-output/cucumber.json"} )
-public class CucumberTestRunner {
+        features = "classpath:/features/feat2",
+        plugin = {"json:target/test-classes/json-output/cucumber2.json"} )
+public class CucumberTestRunner2 {
 }

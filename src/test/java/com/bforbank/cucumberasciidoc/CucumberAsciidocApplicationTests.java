@@ -9,6 +9,7 @@ import com.github.cukedoctor.parser.FeatureParser;
 import com.github.cukedoctor.util.FileUtil;
 import org.junit.jupiter.api.Test;
 
+import java.util.Collections;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -27,10 +28,11 @@ class CucumberAsciidocApplicationTests {
 				.docTitle("Documentation Title")
 				.sectAnchors(true).sectLink(true);
 
-		CukedoctorConverter converter = Cukedoctor.instance(features, attrs);
-		converter.setFilename("target/test-classes/features/living_documentation.adoc");
+		for(Feature feature: features) {
+			CukedoctorConverter converter = Cukedoctor.instance(Collections.singletonList(feature), attrs);
+			converter.setFilename("docs/" + feature.getName() + ".adoc");
 
-		converter.saveDocumentation();
-		assertTrue(FileUtil.loadFile("target/test-classes/features/living_documentation.adoc").exists());
+			converter.saveDocumentation();
+		}
 	}
 }

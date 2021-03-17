@@ -1,0 +1,7 @@
+name: documentation
+title: Living Documentation
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/living/nav.adoc

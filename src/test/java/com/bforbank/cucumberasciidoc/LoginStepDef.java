@@ -20,6 +20,5 @@ public class LoginStepDef {
 
     @Given("I have the following numbers")
     public void iHaveTheFollowingNumbers(DataTable data) {
-
     }
 }
