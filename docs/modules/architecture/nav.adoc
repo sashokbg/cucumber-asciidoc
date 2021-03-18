@@ -1,0 +1,3 @@
+* Architecture
+** link:http://test[First page]
+** link:http://test[Second page]

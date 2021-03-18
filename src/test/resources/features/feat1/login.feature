@@ -7,7 +7,7 @@ image::img1.png[]
       Given I have the following numbers
         | 2    | 4     |
       When I multiply the numbers
-      Then I should have 8 as result
+      Then I should have 7 as result
   
   Scenario: Adding numbers with cucumber
     You can use *asciidoc markup* in _feature_ #description#.
