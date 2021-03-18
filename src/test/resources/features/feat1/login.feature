@@ -1,20 +1,18 @@
 Feature: Calculator
 
-image::images/img1.png[]
+image::img1.png[]
 
-  Rule: Mltiplication should work
+  Rule: Multiplication should work
     Example: Two times Four
-      #{}
       Given I have the following numbers
-        | test | dsfds |
-        | 1    | 2     |
-      When I sum the numbers
+        | 2    | 4     |
+      When I multiply the numbers
       Then I should have 8 as result
   
   Scenario: Adding numbers with cucumber
     You can use *asciidoc markup* in _feature_ #description#.
 
-    image::images/img1.png[]
+    image::img1.png[]
 
     NOTE: This is a very important feature!
 

@@ -1,0 +1,75 @@
+.title {
+    color: #974D3D;
+    font-style: italic;
+}
+
+.toc {
+    background-color: #f0f0f0;
+    border-radius: 1%;
+    padding: 14px;
+    border: 1px solid #c2c2c2;
+}
+
+.doc .exampleblock > .content {
+    border: 1px solid #bbbb71;
+    border-radius: .5rem;
+    padding: .75rem;
+    background-color: #fffff1;
+}
+
+thead {
+    background: lightgray;
+}
+
+table.stripes-even tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.white {
+    color: #FFFFFF;
+}
+.silver {
+    color: #C0C0C0;
+}
+.gray {
+    color: #808080;
+}
+.black {
+    color: #000000;
+}
+.red {
+    color: #FF0000;
+}
+.maroon {
+    color: #800000;
+}
+.yellow {
+    color: #FFFF00;
+}
+.olive {
+    color: #808000;
+}
+.lime {
+    color: #00FF00;
+}
+.green {
+    color: #008000;
+}
+.aqua {
+    color: #00FFFF;
+}
+.teal {
+    color: #008080;
+}
+.blue {
+    color: #0000FF;
+}
+.navy {
+    color: #000080;
+}
+.fuchsia {
+    color: #FF00FF;
+}
+.purple 	{
+    color: #800080;
+}
